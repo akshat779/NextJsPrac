@@ -2,7 +2,6 @@
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
-import { extractData } from "@/helpers/getDataFromToken";
 import { useEffect, useState } from "react";
 
 export default function ProfilePage(){
